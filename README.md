@@ -21,37 +21,36 @@ To run this project:
    From the **API key created** dialog click **RESTRICT KEY**
 
 
-   ![credentials](/screenshots/credentials.png)
+   ![credentials](/screenshots/credentials.png)  
+
 
    In the **Application restrictions**, select **Android apps**
    In the **Restrict usage to your Android apps** click on **ADD AN ITEM** then 
    enter the package name of your app: `com.example.flutter_google_maps_current_location`
-   For the `SHA-1 certificate fingerprint` Go to your app directory and generate it:
+   For the `SHA-1 certificate fingerprint`   
+   Go to your app directory and generate it:
 
-   For linux: `keytool -list -v -alias androiddebugkey -keystore ~/.android/debug.keystore -storepass android -keypass android`
+   For linux: `keytool -list -v -alias androiddebugkey -keystore ~/.android/debug.keystore -storepass android -keypass android`, then copy and paste **SHA1** .
 
-   then copy and paste **SHA1** .
-
-  In the **API restrictions** select **Restrict key** 
-  and select all APIs you already added above:  
-   - Geocoding API
-   - Geolocation API
-   - Maps SDK for Android
-   - Places API 
-   - Maps SDK for iOS
+   In the **API restrictions** select **Restrict key**  and select all APIs you already added above:  
+     - Geocoding API
+     - Geolocation API
+     - Maps SDK for Android
+     - Places API 
+     - Maps SDK for iOS
 
 
-Click on **SAVE**
+   Click on **SAVE**  
+
 
 
 Now copy the API key :
 
  ![api key](/screenshots/api_key.png)
 
- Add it to `AndroidManifest.xml`
-
- Under the `application` tag:
+ Add it to `AndroidManifest.xml` below the `application` tag:
 
  `<meta-data android:name="com.google.android.geo.API_KEY"
-        android:value="YOUR_API_KEY"/>`  
+        android:value="YOUR_API_KEY"/>`   
+         
  ![api key AndroidManifest](/screenshots/api_key_manifest.png)
