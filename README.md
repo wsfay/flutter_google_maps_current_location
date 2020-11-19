@@ -43,7 +43,7 @@ To run this project:
 
 
 
-Now copy the API key :
+5. Copy the API key :
 
  ![api key](/screenshots/api_key.png)
 
