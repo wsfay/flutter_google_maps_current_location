@@ -3,13 +3,13 @@
 
 # Plugins
 Plugins that are used:
-  - google_maps_flutter: ^1.0.6
-  - location: ^3.0.2
-  - geocoder: ^0.2.1
-  - google_maps_webservice: ^0.0.18
-  - flutter_google_places: ^0.2.6
-  - shared_preferences: ^0.5.12+4  
-  
+  - google_maps_flutter
+  - location
+  - geocoder
+  - google_maps_webservice
+  - flutter_google_places
+  - shared_preferences    
+
 # Get Started
 
 To run this project:
