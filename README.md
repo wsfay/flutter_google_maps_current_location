@@ -2,13 +2,13 @@
 ![App demo](/screenshots/demo.gif)
 
 # Plugins
-Plugins that are used:
-  - google_maps_flutter
-  - location
-  - geocoder
-  - google_maps_webservice
-  - flutter_google_places
-  - shared_preferences    
+Plugins that are used:  
+  - [google_maps_flutter](https://pub.dev/packages/google_maps_flutter)
+  - [location](https://pub.dev/packages/location)
+  - [geocoder](https://pub.dev/packages/geocoder)
+  - [google_maps_webservice](https://pub.dev/packages/google_maps_webservice)
+  - [flutter_google_places](https://pub.dev/packages/flutter_google_places)
+  - [shared_preferences](https://pub.dev/packages/shared_preferences)    
 
 # Get Started
 
