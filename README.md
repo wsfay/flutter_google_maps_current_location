@@ -1,5 +1,5 @@
 # Screenshots
-
+![App demo](/screenshots/demo.gif)
 # Get Started
 
 To run this project:
